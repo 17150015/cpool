@@ -36,13 +36,3 @@ int my_getnbr(char const *str)
 }
 
 
-int main(void)
-{
-    printf("\ntask5:  \n");
-    char ggg[]="42a43";
-    int gg=my_getnbr(ggg);
-    printf("%d\n", gg);
-    
-    return 0;
-}
-

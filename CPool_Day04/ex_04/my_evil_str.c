@@ -15,13 +15,3 @@ char *my_evil_str(char *str)
     return str;
 }
 
-int main(void)
-{
-    char str[]="abcdef";
-    printf("task3:  \n");
-    my_evil_str(str);
-    printf("%s\n", str);
-
-    return 0;
-}
-
